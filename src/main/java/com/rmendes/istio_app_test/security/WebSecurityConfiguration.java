@@ -16,8 +16,8 @@ public class WebSecurityConfiguration {
 	public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
 		http.authorizeHttpRequests(
 				auth -> auth.anyRequest().authenticated()
-				).httpBasic(withDefaults());
-		//.headers(headers -> headers.disable());
+				).httpBasic(withDefaults())
+		.headers(headers -> headers.disable());
 		return http.build();
 	}
 
