@@ -53,7 +53,7 @@
 		</dependency>
 
 	</dependencies>
-	<profiles>
+<!-- 	<profiles>
 		<profile>
 			<id>openshift</id>
 			<properties>
@@ -134,6 +134,7 @@
 			</build>
 		</profile>
 	</profiles>
+	-->
 
 	<build>
 		<plugins>
